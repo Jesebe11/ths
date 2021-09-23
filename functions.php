@@ -140,7 +140,7 @@ add_action( 'widgets_init', 'ths_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ths_theme_scripts() {
-	wp_enqueue_style( 'ths_theme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'ths_theme-style', get_template_directory_uri() . '/dist/css/style.css', array(), '1.0.0' );
 	wp_style_add_data( 'ths_theme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'ths_theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
