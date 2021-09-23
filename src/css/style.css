@@ -8,5 +8,5 @@
 /**/@import 'tailwindcss/utilities';
 
 header{
-    @apply bg-black;
+    @apply bg-ths-black;
 }

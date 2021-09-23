@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors:{
         //layout
-        'nezegamer-red' : '#df163b',
+        'ths-black' : '#000',
       }
     },
   },
