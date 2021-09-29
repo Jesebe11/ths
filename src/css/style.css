@@ -8,6 +8,6 @@
 /**/@import 'tailwindcss/utilities';
 
 .titulo{
-    @apply bg-black text-white;
+    @apply bg-global-black text-white;
     font-family: 'Roboto Slab', serif;
 }
