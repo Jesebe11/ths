@@ -141,6 +141,9 @@ add_action( 'widgets_init', 'ths_theme_widgets_init' );
  */
 function ths_theme_scripts() {
 	wp_enqueue_style( 'ths_theme-style', get_template_directory_uri() . '/dist/css/style.css', array(), '1.0.0' );
+	wp_enqueue_style('roboto_slab_google_fonts', "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap");
+
+
 	wp_style_add_data( 'ths_theme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'ths_theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -170,10 +173,7 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
-/**
- * Google fonts.
- */
-require get_template_directory() . '/inc/fonts.php';
+
 
 /**
  * Load Jetpack compatibility file.
