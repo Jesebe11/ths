@@ -3,11 +3,8 @@
 
 /**/@import 'tailwindcss/components';
 
+        @import './layout.css';
+        @import './home.css';
 
 
 /**/@import 'tailwindcss/utilities';
-
-.titulo{
-    @apply bg-global-black text-white;
-    font-family: 'Roboto Slab', serif;
-}
