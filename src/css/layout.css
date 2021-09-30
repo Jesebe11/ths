@@ -1,3 +1,4 @@
-body{
-    @apply bg-global-black font-roboto-slab text-global-white;
+.site{
+    @apply bg-global-black font-roboto-slab text-global-white flex flex-col items-center flex-wrap;
+    ;
 }
