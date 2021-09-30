@@ -1,0 +1,8 @@
+.navigation{
+    @apply  font-thin flex items-center;
+        .menu-primary-container{
+            .menu{
+                @apply flex flex-wrap gap-4 items-center;
+            }
+        }
+}
