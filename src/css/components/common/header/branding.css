@@ -1,0 +1,6 @@
+.branding{
+    @apply flex items-center;
+        .site-title{
+            @apply text-2xl font-bold;
+        }
+}
