@@ -1,6 +1,6 @@
 .branding{
     @apply flex gap-2 items-end;
         .site-title{
-            @apply text-2xl font-bold;
+            @apply text-2xl font-bold border-b-2 border-global-blue-primary;
         }
 }
