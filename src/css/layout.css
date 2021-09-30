@@ -1,0 +1,3 @@
+body{
+    @apply bg-global-black font-roboto-slab text-global-white;
+}
