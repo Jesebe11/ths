@@ -7,8 +7,8 @@ module.exports = {
         'roboto-slab': ['"Roboto Slab"']
       },
       colors:{
-        'global-black' : '#080A0C',
-        'global-gray-primary' : '#1A1E23',
+        'global-black' : '#18191A',
+        'global-gray-primary' : '#3D3D3D',
         'global-blue-primary' : '#15C7E7',
         'global-blue-secondary' : '#32DFFE',
         'global-white' : '#FFF',
