@@ -1,1 +1,5 @@
-<div class="buscador center"><?php echo get_search_form(); ?></div> 
+<div class="search">
+    <?php
+        echo get_search_form();
+    ?>
+</div>
