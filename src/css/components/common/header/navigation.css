@@ -8,12 +8,12 @@
             }
         }
         .menu-item {
-            @apply inline-block items-center border-none text-global-white bg-transparent font-bold text-lg;
+            @apply inline-block items-center border-none text-global-white bg-transparent text-xl font-thin text-opacity-70;
             column-gap: .3rem;
             z-index:100;
 
             a {
-                @apply inline-block relative text-lg;
+                @apply inline-block relative text-lg ;
 
                 &::before {
                     content: '';
@@ -23,6 +23,7 @@
                 }
 
                 &:hover:before, &:focus:before {
+                    @apply text-opacity-90;
                     transform: scaleX(1);
                 }
             }
