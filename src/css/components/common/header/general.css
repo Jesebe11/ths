@@ -1,3 +1,8 @@
 .header{
-    @apply w-full justify-around items-end flex gap-2 p-6;
+    @apply w-full justify-around items-center flex gap-2 p-6 flex-col;
+}
+@screen lg{
+    .header{
+        @apply items-end flex-row;
+    }
 }

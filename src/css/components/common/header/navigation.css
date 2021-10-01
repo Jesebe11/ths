@@ -1,7 +1,7 @@
 .menu-primary-container{
     @apply flex items-end;
     .menu{
-        @apply flex overflow-x-visible w-auto h-auto gap-4 items-end;
+        @apply flex overflow-x-visible w-auto h-auto gap-4 items-end justify-center flex-wrap;
         .menu-item-has-children{
             &:after{
                 content: ' ▾ ';
