@@ -1,4 +1,9 @@
-.menu-primary-container{
+.menu-primmary-container{
+    display: none;
+}
+
+@screen lg{
+    .menu-primary-container{
     @apply flex items-end;
     .menu{
         @apply flex overflow-x-visible w-auto h-auto gap-4 items-end justify-center flex-wrap;
@@ -13,7 +18,7 @@
             z-index:100;
 
             a {
-                @apply inline-block relative text-lg ;
+                @apply inline-block relative text-lg;
 
                 &::before {
                     content: '';
@@ -28,7 +33,7 @@
                 }
             }
                     .sub-menu {
-                        @apply absolute bg-transparent pl-0 mt-2 hidden z-50;
+                        @apply absolute bg-transparent pl-0 hidden z-50;
                         min-width: 240px;
                         a {
                             @apply p-3 w-full;
@@ -38,12 +43,12 @@
                             }
                         }
                         .menu-item {
-                            @apply bg-global-gray-secondary mb-1 mr-0 p-0 w-full font-bold transform transition duration-700;
+                            @apply bg-global-gray-secondary mb-1 mr-0 p-0 w-full font-bold transform transition duration-700 ;
                             &:hover {
                                 @apply bg-global-gray-secondary ml-8 transform transition duration-700;
                             }
                             a {
-                                @apply p-4 w-full;
+                                @apply p-4 w-full border-t-2 border-b-2 border-global-blue-primary;
                                 &::before {
                                     @apply bg-global-gray-primary text-global-blue-secondary;
                                 }
@@ -84,4 +89,5 @@
     to {
         transform: translateX(0);
     }
+}
 }

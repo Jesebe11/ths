@@ -1,0 +1,32 @@
+.wprm-wrapper{
+    font-family: 'Roboto Slab' !important;
+}
+.wprmenu_bar{
+    border-bottom: 2px solid #32DFFE;
+}
+#wprmenu_menu_ul{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem;
+}
+.menu-item{
+    border-bottom: 2px solid #32DFFE;
+}
+.sub-menu{
+    .menu-item{
+        background: #3D3D3D !important;
+        margin-left: 1rem !important;
+    }
+}
+
+.wpr-search-field{
+    background: transparent !important;
+    border: 2px solid #32DFFE;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    padding: 2rem !important;
+}
+.wpr_submit{
+    color: #fff !important;
+}
