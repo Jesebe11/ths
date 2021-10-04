@@ -1,5 +1,5 @@
 .header{
-    @apply w-full justify-around items-center flex gap-2 p-6 flex-col;
+    @apply w-full justify-around items-center flex gap-2 p-6 flex-col bg-global-gray-primary;
 }
 @screen lg{
     .header{

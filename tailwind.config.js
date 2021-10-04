@@ -8,7 +8,7 @@ module.exports = {
       },
       colors:{
         'global-black' : '#18191A',
-        'global-gray-primary' : '#3D3D3D',
+        'global-gray-primary' : '#1F2937',
         'global-blue-primary' : '#15C7E7',
         'global-blue-secondary' : '#32DFFE',
         'global-white' : '#FFF',

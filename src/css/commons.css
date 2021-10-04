@@ -6,3 +6,9 @@
 @import '../css/components/common/header/navigation.css';
 @import '../css/components/common/header/navigation-mobile.css';
 @import '../css/components/common/header/search-form.css';
+
+/***
+ * Footer commons
+*/
+
+@import '../css/components/common/footer/general.css';

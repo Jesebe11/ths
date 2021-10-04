@@ -13,7 +13,7 @@
             }
         }
         .menu-item {
-            @apply inline-block items-center border-none text-global-white bg-transparent text-xl font-thin text-opacity-70;
+            @apply inline-block items-center border-none text-global-white bg-transparent text-xl font-light text-opacity-70;
             column-gap: .3rem;
             z-index:100;
 
@@ -50,7 +50,7 @@
                             a {
                                 @apply p-4 w-full border-t-2 border-b-2 border-global-blue-primary;
                                 &::before {
-                                    @apply bg-global-gray-primary text-global-blue-secondary;
+                                    @apply bg-global-white text-global-blue-secondary;
                                 }
                             }
                         }
