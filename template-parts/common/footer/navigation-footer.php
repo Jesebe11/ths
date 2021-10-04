@@ -1,3 +1,5 @@
-<div class="menus">
-    Aqui van las areas de widgets para el footer
+<div class="navs-footer">
+    <?php if( is_active_sidebar( 'sidebar-navs-footer' ) ) {
+        dynamic_sidebar( 'sidebar-navs-footer' );
+    } ?>
 </div>
