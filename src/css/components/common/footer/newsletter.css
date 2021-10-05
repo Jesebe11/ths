@@ -41,7 +41,7 @@
                 }
             }
             .form-newsletter{
-                @apply flex-row ;
+                @apply flex-row w-2/3;
                     &__email{
                         @apply w-3/4;
                     }
