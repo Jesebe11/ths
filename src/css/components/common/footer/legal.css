@@ -1,3 +1,3 @@
 .legal{
-    @apply w-full flex justify-end p-4 text-xs font-thin bg-global-gray-primary;
+    @apply w-full flex justify-end p-4 text-xs font-thin bg-global-gray-primary italic opacity-60 text-center;
 }
