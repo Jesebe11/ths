@@ -50,7 +50,7 @@
                             a {
                                 @apply p-4 w-full border-t-2 border-b-2 border-global-blue-primary;
                                 &::before {
-                                    @apply bg-global-white text-global-blue-secondary;
+                                    @apply bg-global-white text-global-blue-primary;
                                 }
                             }
                         }

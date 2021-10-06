@@ -1,3 +1,3 @@
 .footer{
-    @apply border-t-2 border-global-blue-primary bg-global-gray-primary text-global-white w-full flex flex-col justify-center items-center;
+    @apply  text-global-white w-full flex flex-col justify-center items-center;
 }

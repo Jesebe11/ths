@@ -1,7 +1,7 @@
 .newsletter{
-    @apply w-full bg-global-black;
+    @apply w-full bg-global-black ;
     &__all{
-        @apply w-full p-4 flex flex-col gap-2 items-center justify-center;
+        @apply w-full p-4 flex flex-col gap-2 items-center justify-center border-t-2 border-global-gray-secondary;
         .info{
             @apply flex flex-col gap-4 justify-center items-center text-center;
                 &__title{
@@ -48,7 +48,7 @@
                     &__send{
                         @apply w-1/4 transition duration-500 transform;
                             &:hover{
-                                @apply bg-transparent border border-global-blue-primary translate-x-4;
+                                @apply bg-transparent border border-global-blue-primary translate-x-4 text-global-white;
                             }
                     }
             }

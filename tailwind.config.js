@@ -7,12 +7,11 @@ module.exports = {
         'roboto-slab': ['"Roboto Slab"']
       },
       colors:{
-        'global-black' : '#18191A',
-        'global-gray-primary' : '#1F2937',
+        'global-black' : '#12151a',
+        'global-gray-primary' : '#0B0D10',
         'global-blue-primary' : '#15C7E7',
-        'global-blue-secondary' : '#32DFFE',
         'global-white' : '#FFF',
-        'global-gray-secondary' : '#7A7A7A',
+        'global-gray-secondary' : '#6c757d',
       }
     },
   },
