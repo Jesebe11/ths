@@ -1,3 +1,6 @@
 .navs-footer{
-    @apply flex flex-wrap justify-around w-full p-4;
+    @apply flex flex-wrap p-4 overflow-x-scroll max-w-full;
+        .widget_nav_menu{
+            min-width: 80%;
+        }
 }

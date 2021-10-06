@@ -8,9 +8,9 @@
     display: flex !important;
     flex-direction: column !important;
     gap: 1rem;
-}
-.menu-item{
-    border-bottom: 2px solid #32DFFE;
+        .menu-item{
+            border-bottom: 2px solid #32DFFE;
+        }
 }
 .sub-menu{
     .menu-item{
