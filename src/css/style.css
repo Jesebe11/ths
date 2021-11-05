@@ -5,7 +5,7 @@
 
         @import './layout.css';
         @import './commons.css';
-        /* @import './home.css'; */
+        @import './home.css';
 
 
 /**/@import 'tailwindcss/utilities';
