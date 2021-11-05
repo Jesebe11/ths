@@ -1,3 +1,27 @@
 .site{
     @apply bg-global-black font-roboto-slab text-global-white flex flex-col items-center flex-wrap;
+        .main{
+            @apply w-full p-4;
+                .container{
+                    @apply w-full flex justify-center items-center;
+                }
+        }
+}
+@screen md{
+    .site{
+        .main{
+            .container{
+                width: 970px;
+            }
+        }
+    }
+}
+@screen lg{
+    .site{
+        .main{
+            .container{
+                width: 1170px;
+            }
+        }
+    }
 }
