@@ -40,3 +40,8 @@
             }
         }
 }
+@screen lg{
+        .navs-footer{
+            @apply flex-row justify-around items-center;
+        }
+}
