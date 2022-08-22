@@ -1,0 +1,6 @@
+.services{
+    @apply grid grid-cols-3 w-full gap-16;
+        .card{
+            @apply flex flex-col justify-center items-center border-2 border-global-blue-primary rounded-md p-4;
+        }
+}
