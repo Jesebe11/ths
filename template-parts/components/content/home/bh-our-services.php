@@ -5,7 +5,7 @@ $args = [
     'post_status' => 'publish',
     'orderby' => 'date',
     'order' => 'DESC',
-    'posts_per_page' => 6,
+    'posts_per_page' => 1,
     'category_name' => 'servicios'
 ];
 
@@ -15,7 +15,7 @@ $the_query = new WP_Query( $args);
 <section class="services">
 
     <?php
-        get_template_part( 'template-parts/components/common/titles/titles' , '' , ['title' => '<span>Nuestros</span>&nbsp servicios' , 'permalink' => '  '] ); 
+        get_template_part( 'template-parts/components/common/titles/titles' , '' , ['title' => '<span>Nuestros</span>&nbsp servicios' , 'permalink' => '  '] );
     ?>
         <?php if( $the_query->have_posts() ) : ?>
             <?php while( $the_query->have_posts() ) :
@@ -33,7 +33,6 @@ $the_query = new WP_Query( $args);
                             <div class="content-text">
                                 <?php  echo '<p class="excerpt">' . get_the_excerpt() . '</p>'; ?>
                             </div>
-                        </div>
                 </article>
 
 
